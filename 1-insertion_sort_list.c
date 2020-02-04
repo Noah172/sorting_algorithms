@@ -7,7 +7,7 @@
  */
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *c, *a; 
+	listint_t *c, *a;
 	/*a is the actual position in the list | c is the current comparation value*/
 
 	if ((*list)->next == NULL || list == NULL || *list == NULL)
