@@ -3,14 +3,14 @@
  *selection_sort - function that sorts an array of integers
  *		   in ascending order using the Selection sort algorithm
  *@array: the array to sort
- *@sise: the size of the array
+ *@size: the size of the array
  */
 void selection_sort(int *array, size_t size)
 {
 	size_t i = 0, s, lp = 0;
 	int l, g, ctrl;
 
-	if (size< 2)
+	if (size < 2)
 		return;
 
 	while (i < size)
